@@ -1,0 +1,15 @@
+{
+  "name": "berndo-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fourth-index.js",
+  "scripts": {
+    "start": "node fourth-index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "upper-case": "^2.0.2"
+  }
+}

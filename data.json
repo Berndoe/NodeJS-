@@ -1,0 +1,7 @@
+{
+    "name":"Ben",
+    "address": {
+        "street":"Papaya",
+        "city":"Accra"
+    }
+}

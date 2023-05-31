@@ -1,0 +1,27 @@
+Version format
+X.Y.Z
+X- major Version
+Y-minor Version
+Z- patch Version
+
+Rules
+1. Fixing a bug and the code staying backwards-compatible
+you increment the patch version.
+Eg. 1.1.1 to 1.1.2
+
+2. When you add new functionailty but the code still stays
+backwards-compatible, you increment the minor version.
+You also reset the patch version to 0.
+Eg. 1.1.1 to 1.2.0
+
+3. Make changes to code and no more backwards-compatibility
+major version++ and minor and patch = 0
+Eg. 1.1.1 to 2.0.0
+
+Question: what happens if you fix a bug and add a new functionality.
+How is the versioning done?
+
+Semantic versioning always starts with 0.1.0
+
+When code is production ready, version++ version 1.0.0
+After this even the simplest of changes increases the version number
